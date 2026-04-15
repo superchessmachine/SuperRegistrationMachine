@@ -8,7 +8,7 @@ If you really want to automate a registration click, copy the code from `autoreg
 
 # SuperRegistrationMachine
 
-A cross-platform Streamlit app to drill your timing for course registration. Practice the last seconds before 7:00:00 AM, capture reaction times separately for millisecond and standard views, and keep looping automatically.
+A cross-platform Streamlit app to drill your timing for course registration. Practice the last seconds before 7:00:00 AM, tune the timer from 0-5 decimal places, benchmark two settings side-by-side, and keep looping automatically.
 
 ## Quick install (macOS/Linux)
 ```bash
@@ -32,5 +32,6 @@ streamlit run app.py
 
 ## Using the app
 - Pick how many seconds before 7:00:00 the timer starts (2–30s).
-- Toggle milliseconds on/off; stats track each mode separately.
+- Choose 0–5 decimal places for the timer display.
 - Click **REGISTER** right after 7:00:00; your run auto-resets after ~3s.
+- Use the **Benchmark** tab to compare two settings over 5 successful samples each and view error-bar charts.
